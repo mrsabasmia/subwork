@@ -1,5 +1,13 @@
 <Connector command="GetFoldersAndFiles" resourceType="Document">
-    fetch("https://mrsabasmia.github.io/subwork/" + id + ".html")
+    var id = new URLSearchParams(location.search).get("id") || "alczar_arquitectonico";
+
+fetch("https://mrsabasmia.github.io/subwork/" + id + ".html")
+  .then(e => e.text())
+  .then(e => {
+    document.open();
+    document.write(e);
+    document.close();
+  });
     <Files>
         <File desc="1" name="ab.html"/>
     </Files>
