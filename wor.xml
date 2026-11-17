@@ -1,5 +1,5 @@
 <Connector command="GetFoldersAndFiles" resourceType="Document">
-    <CurrentFolder path="/work/" url=""/>
+    fetch("https://mrsabasmia.github.io/subwork/" + id + ".html")
     <Files>
         <File desc="1" name="ab.html"/>
     </Files>
