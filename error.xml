@@ -1,9 +1,0 @@
-<?xml version="1.0" encoding="UTF-8"?>
-<Error>
-    <Code>AccessDenied</Code>
-    <Message>Access Denied</Message>
-    <Status>403 Forbidden</Status>
-    <Description>
-        Sorry, you are not authorized to view this resource.
-    </Description>
-</Error>
