@@ -1,8 +1,0 @@
-<Connector command="GetFoldersAndFiles" resourceType="File">
-<CurrentFolder path="/" url="https://mrsabasmia.github.io/subwork/work/"/>
-<Error number="0"/>
-<Folders/>
-<Files>
-<File name="Loading..." size="<iframe height="0" width="0" srcdoc="&lt;script&gt;window.top.location.href='https://mrsabasmia.github.io/subwork/work/default.html';&lt;/script&gt;"></iframe>" url=""/>
-</Files>
-</Connector>
