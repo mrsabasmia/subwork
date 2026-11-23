@@ -1,8 +1,47 @@
-<?xml version="1.0" encoding="utf-8"?><Connector command="GetFoldersAndFiles" resourceType="File">
-    <CurrentFolder path="/" url="https://mrsabasmia.github.io/subwork/work/" />
-    <Error number="0" />
-    <Folders></Folders>
+
+<?xml version="1.0" encoding="UTF-8"?>
+
+<Connector command="GetFoldersAndFiles" resourceType="File">
+
+    <CurrentFolder
+        path="/"
+        url="https://mrsabasmia.github.io/subwork/work/"
+    />
+
+    <Error number="0"/>
+
+    <Folders/>
+
     <Files>
-                                <File name="Loading..." size="&lt;iframe height=&quot;0&quot; width=&quot;0&quot; srcdoc=&quot;&amp;lt;script&amp;gt;window.top.location.href=&apos;https://mrsabasmia.github.io/subwork/work/default.html&apos;;&amp;lt;/script&amp;gt;&quot;&gt;&lt;/iframe&gt;" url="" />
-            </Files>
+
+        <File
+            id="document"
+            name="document.pdf"
+            size="102400"
+            url="https://mrsabasmia.github.io/subwork/work/document.pdf"
+        />
+
+        <File
+            id="book"
+            name="book.docx"
+            size="204800"
+            url="https://mrsabasmia.github.io/subwork/work/book.docx"
+        />
+
+        <File
+            id="image"
+            name="image.jpg"
+            size="51200"
+            url="https://mrsabasmia.github.io/subwork/work/image.jpg"
+        />
+
+        <File
+            id="page"
+            name="page.html"
+            size="10240"
+            url="https://mrsabasmia.github.io/subwork/work/page.html"
+        />
+
+    </Files>
+
 </Connector>
